@@ -1,0 +1,26 @@
+{
+  "name": "assets_webpack",
+  "version": "0.0.1",
+  "scripts": {
+    "run_bp": "webpack --config ./assets/webpack.dev.js"
+  },
+  "devDependencies": {
+    "chalk": "^2.3.2",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.8.3",
+    "progress-bar-webpack-plugin": "^1.11.0",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.19.1",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "webpack": "^3.12.0",
+    "webpack-merge": "^4.1.3"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
